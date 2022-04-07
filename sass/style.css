@@ -9,9 +9,31 @@ body {
 }
 
 /* HEADER */
+/* TOPBAR */
+.topbar {
+  position: relative;
+}
+
+.topbar-right {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  padding: 0;
+  top: 0;
+  right: 0;
+  background-color: #030c11;
+  border: 0;
+}
+
+.topbar-search {
+  padding: 8px 11 px 7px;
+  color: #fff;
+  background-color: #1448ed;
+}
+
 .topbar-menu {
   background-color: #030c11;
-  display: block;
+  display: flex;
   list-style: none;
   margin: 0;
   padding: 0;
@@ -70,6 +92,45 @@ nav .topbar-tech {
   z-index: 1;
   text-align: center;
   border-radius: 0 0 4px 4px;
+}
+
+/* NAV */
+.container-inner {
+  max-width: 1280px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-link {
+  position: relative;
+  z-index: 3;
+  flex-shrink: 1;
+  padding: 10px 0;
+  line-height: 0;
+}
+
+.nav-logo-img {
+  width: 127px;
+  height: 40px;
+}
+
+.nav-list {
+  display: inline;
+  justify-content: space-evenly;
+}
+
+.nav-link {
+  display: inline-block;
+}
+
+.nav-trigger {
+  position: relative;
+  padding: 23px 20px 21px;
+  background-color: #fff;
+  border: none;
 }
 
 /* MAIN */
