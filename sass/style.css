@@ -134,17 +134,48 @@ nav .topbar-tech {
 }
 
 /* MAIN */
-.home-hero {
+.home-hero-container {
+  width: 100%;
+  height: 1000px;
   background-image: url(https://www.kaliop.com/app/uploads/2021/09/Key-visual-Hero-Home-scaled.jpg);
   background-size: cover;
   background-position: 0 0;
 }
 
-.home-hero-container {
-  max-width: 1280px;
+.home-hero-block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-hero-title {
+  font-size: 2.4rem;
+  font-weight: 800;
+  line-height: 1.22;
+}
+
+.home-hero-links {
   width: 100%;
-  margin: 0 auto;
-  height: 800px;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-hero-link {
+  width: 190px;
+  padding: 20px;
+  margin: 0 8px;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 700;
+  transition: .3s;
+  background-color: rgba(3, 12, 17, 0.7);
+  border-radius: 52px;
+  cursor: pointer;
+  transition: background-color .25s ease;
+  text-decoration: none;
+  text-align: center;
 }
 
 /* SECTION REFERENCES */
