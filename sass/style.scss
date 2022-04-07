@@ -190,6 +190,24 @@ nav .topbar-tech {
     text-align: center;
 }
   /* SECTION REFERENCES */
+
+  .container-inner2 {
+      width: 100%;
+      margin: 0 auto;
+  }
+
+  .block-head {
+      display: flex;
+      justify-content: space-between;
+      padding: 60px 0 40px;
+      line-height: 1;
+  }
+  
+  .teasers {
+      display: flex;
+      flex-wrap: wrap;
+      padding-bottom: 60px;
+  }
   
   .teasers-img {
     background-image: url(https://wwwx.kaliop.com/app/uploads/2019/01/franceconnect-thumb.jpg);
