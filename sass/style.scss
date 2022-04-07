@@ -105,9 +105,6 @@ nav .topbar-tech {
 
 /* NAV */
 
-.nav-container {
-
-}
 .container-inner {
     max-width: 1280px;
     width: 100%;
@@ -120,9 +117,14 @@ nav .topbar-tech {
 .nav-link {
     position: relative;
     z-index: 3;
-    flex-shrink: 1;
+   // flex-shrink: 10;
     padding: 10px 0;
     line-height: 0;
+    display: inline-block;
+}
+
+.nav-list:hover ul li{
+    display: block;
 }
 
 .nav-logo-img {
@@ -135,20 +137,28 @@ nav .topbar-tech {
     justify-content: space-evenly;
 }
 
-.nav-link {
-    display: inline-block;
-}
-
 .nav-trigger {
     position: relative;
     padding: 23px 20px 21px;
     background-color: $color-main;
     border: none;
 }
+
 /* MAIN */
+
 .home-hero {
     background-image: url(https://www.kaliop.com/app/uploads/2021/09/Key-visual-Hero-Home-scaled.jpg);
-  }
+    background-size: cover;
+    background-position: 0 0;
+}
+
+.home-hero-container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+    height: 800px;
+}
+
   
   /* SECTION REFERENCES */
   
