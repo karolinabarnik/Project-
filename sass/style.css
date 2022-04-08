@@ -198,7 +198,8 @@ nav .topbar-tech {
 }
 
 .teasers-img {
-  background-image: url(https://wwwx.kaliop.com/app/uploads/2019/01/franceconnect-thumb.jpg);
+  background-image: url(https://www.kaliop.com/app/uploads/2019/01/franceconnect-thumb.jpg);
+  background-size: cover;
 }
 
 .teasers-img2 {
