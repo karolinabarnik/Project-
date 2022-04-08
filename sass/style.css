@@ -239,7 +239,7 @@ nav .topbar-tech {
 }
 
 .teasers-pin {
-  position: absolute;
+  display: flex;
   padding: 6px 10px 5px;
   font-size: 1.5rem;
   text-transform: uppercase;
@@ -247,11 +247,34 @@ nav .topbar-tech {
   background-color: #4d7ae8;
   color: #fff;
   border-radius: 30px;
-  z-index: 2;
+  margin: 10px;
 }
 
-.teasers-tags {
+.teasers-tag1, .teasers-tag2, .teasers-tag3, .teasers-tag4 {
   display: flex;
+  flex-wrap: wrap;
+  font-family: "Inter", sans-serif;
+  font-size: 2rem;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.teasers-tag {
+  display: flex;
+}
+
+.teasers-links {
+  cursor: pointer;
+  text-decoration: none;
+  justify-content: space-between;
+  display: flex;
+  flex-wrap: wrap;
+  font-family: "Inter", sans-serif;
+  font-size: 2rem;
+  font-weight: 800;
+  color: #030c11;
+  font-style: italic;
+  padding: 10px;
 }
 
 /* SECTION OFFERS */
