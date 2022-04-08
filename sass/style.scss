@@ -204,27 +204,40 @@ nav .topbar-tech {
   }
   
   .teasers {
-      display: flex;
-      flex-wrap: wrap;
-      padding-bottom: 60px;
-  }
-  
-  .teasers-img {
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 60px;
+    justify-content: space-evenly;
+}
+ 
+    .teasers-item {
+        flex: 0 0 40%;
+        margin: 20px 10px;
+}
+
+    .teasers-img {
     background-image: url(https://www.kaliop.com/app/uploads/2019/01/franceconnect-thumb.jpg);
     background-size: cover;
+    height: 40rem;
+    
 }
   
-  .teasers-img2 {
-    background-image: url(https://www.kaliop.com/app/uploads/2019/01/biogen_white.svg);
-  }
+    .teasers-img2  {
+    background-image: url(https://www.kaliop.com/app/uploads/2019/01/biogen-thumb.jpg);
+    background-size: cover;
+    height: 40rem;
+}
   
-  .teasers-img3 {
-    background-image: url(https://www.kaliop.com/app/uploads/2019/07/logo-yelloh-blanc.png);
-  }
-  
-  .teasers-img4 {
-    background-image: url(https://www.kaliop.com/app/uploads/2019/02/essilor_white-1.png);
-  }
+   .teasers-img3  {
+    background-image: url(https://www.kaliop.com/app/uploads/2019/07/yelloh.png);  
+    background-size: cover;
+    height: 40rem;
+}
+    .teasers-img4 {
+    background-image: url(https://www.kaliop.com/app/uploads/2019/01/essilor-thumb.jpg);
+    background-size: cover;
+    height: 40rem;
+}
   
   /* SECTION OFFERS */
   /* SECTION PREFOOTER */
