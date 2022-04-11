@@ -100,9 +100,8 @@ nav .topbar-tech {
 
 /* NAV */
 .container-inner {
-  max-width: 1280px;
   width: 100%;
-  margin: 0 auto;
+  margin: 0 50px;
 }
 
 .nav-container {
@@ -290,6 +289,7 @@ nav .topbar-tech {
 /* SECTION OFFERS */
 .offers {
   background-color: #f7f7f7;
+  padding-bottom: 200px;
 }
 
 .block-head {
@@ -300,7 +300,6 @@ nav .topbar-tech {
 
 .title-offers {
   font-size: 4rem;
-  line-height: 46px;
   font-family: "Inter", sans-serif;
   font-weight: 800;
 }
@@ -314,15 +313,25 @@ nav .topbar-tech {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
-  align-items: center;
-  align-content: center;
-  justify-content: space-evenly;
+  justify-content: space-between;
+  margin: 10px;
 }
 
 .bloc-item {
   border: solid 1px;
   flex: 0 0 30%;
-  padding: 10px;
+  padding: 15px;
+  background-color: #fff;
+  color: #030c11;
+}
+
+.bloc-tit1 {
+  font-weight: 900;
+  font-size: 2rem;
+}
+
+.bloc-content p {
+  font-size: 1.5 rem;
 }
 
 /* SECTION PREFOOTER */

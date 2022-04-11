@@ -113,9 +113,9 @@ nav .topbar-tech {
 /* NAV */
 
 .container-inner {
-    max-width: 1280px;
+    //max-width: 1280px;
     width: 100%;
-    margin: 0 auto;
+    margin: 0 50px;
 }
 
 .nav-container {
@@ -301,13 +301,13 @@ nav .topbar-tech {
     color: $color-nav;
     font-style: italic;
     padding: 10px;
-
 }
   
   /* SECTION OFFERS */
 
 .offers {
     background-color: rgb(247, 247, 247);
+    padding-bottom: 200px;
 }
 
 .block-head {
@@ -318,7 +318,6 @@ nav .topbar-tech {
 
 .title-offers {
     font-size: 4rem;
-    line-height: 46px;
     font-family: $font-family;
     font-weight: 800;
 }
@@ -331,16 +330,25 @@ nav .topbar-tech {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    align-items: center;
-    align-content: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    margin: 10px;
 }
 
 .bloc-item {
     border: solid 1px;
     flex: 0 0 30%;
-    padding: 10px;
+    padding: 15px;
+    background-color: $color-main;
+    color: $color-nav;
+}
 
+.bloc-tit1 {
+    font-weight: 900;
+    font-size: 2rem;
+}
+
+.bloc-content p {
+    font-size: 1.5 rem;
 }
 
   /* SECTION PREFOOTER */
