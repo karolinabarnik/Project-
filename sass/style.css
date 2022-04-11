@@ -9,6 +9,10 @@ body {
 }
 
 /* HEADER */
+.container {
+  margin: 0 30px;
+}
+
 /* TOPBAR */
 .topbar {
   position: relative;
@@ -99,6 +103,9 @@ nav .topbar-tech {
   max-width: 1280px;
   width: 100%;
   margin: 0 auto;
+}
+
+.nav-container {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -184,7 +191,7 @@ nav .topbar-tech {
 /* SECTION REFERENCES */
 .container-inner2 {
   width: 100%;
-  margin: 0 auto;
+  margin: 0 30px;
 }
 
 .block-head {
@@ -281,5 +288,62 @@ nav .topbar-tech {
 }
 
 /* SECTION OFFERS */
+.offers {
+  background-color: #f7f7f7;
+}
+
+.block-head {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.title-offers {
+  font-size: 4rem;
+  line-height: 46px;
+  font-family: "Inter", sans-serif;
+  font-weight: 800;
+}
+
+.subtitle-offers {
+  font-size: 3rem;
+  color: #c9c9c9;
+}
+
+.blocs-overlay {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  align-content: center;
+  justify-content: space-evenly;
+}
+
+.bloc-item {
+  border: solid 1px;
+  flex: 0 0 30%;
+  padding: 10px;
+}
+
 /* SECTION PREFOOTER */
+.prefooter {
+  position: relative;
+  padding: 80px 0;
+  text-align: center;
+  background-color: #030c11;
+}
+
+.title-prefooter {
+  color: #fff;
+  font-size: 2.5rem;
+}
+
+.prefooter-btn {
+  color: #fff;
+  background-color: #4d7ae8;
+  border: none;
+  padding: 18px 40px;
+  font-size: 2rem;
+}
+
 /* FOOTER */
