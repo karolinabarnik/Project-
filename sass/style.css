@@ -318,11 +318,12 @@ nav .topbar-tech {
 }
 
 .bloc-item {
-  border: solid 1px;
+  border: solid 1px #242424;
   flex: 0 0 30%;
   padding: 15px;
   background-color: #fff;
   color: #030c11;
+  margin-top: 65px;
 }
 
 .bloc-tit1 {
@@ -330,8 +331,10 @@ nav .topbar-tech {
   font-size: 2rem;
 }
 
-.bloc-content p {
-  font-size: 1.5 rem;
+.bloc-paragraph {
+  padding-bottom: 15px;
+  opacity: .7;
+  color: #242424;
 }
 
 /* SECTION PREFOOTER */
@@ -339,7 +342,7 @@ nav .topbar-tech {
   position: relative;
   padding: 80px 0;
   text-align: center;
-  background-color: #030c11;
+  background-color: #242424;
 }
 
 .title-prefooter {
