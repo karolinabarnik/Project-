@@ -354,22 +354,34 @@ nav .topbar-tech {
 /* SECTION PREFOOTER */
 .prefooter {
   position: relative;
-  padding: 80px 0;
+  padding: 150px 0;
   text-align: center;
   background-color: #242424;
 }
 
+.prefooter-logo {
+  background-image: src= "/Project-/logo.jpg";
+}
+
 .title-prefooter {
   color: #fff;
-  font-size: 3.5rem;
+  font-size: 4.5rem;
 }
 
 .prefooter-btn {
   color: #fff;
   background-color: #4d7ae8;
   border: none;
-  padding: 18px 40px;
+  padding: 30px 60px;
   font-size: 2rem;
+  font-weight: 800;
+  transition-duration: 1.3s;
+  cursor: pointer;
+}
+
+.prefooter-btn:hover {
+  background-color: #fff;
+  color: #4d7ae8;
 }
 
 /* FOOTER */
@@ -382,8 +394,8 @@ nav .topbar-tech {
 }
 
 .footer-logo {
-  height: 150px;
-  width: 300px;
+  height: 100px;
+  width: 200px;
 }
 
 .footer-columns {
@@ -401,6 +413,7 @@ nav .topbar-tech {
 
 .footer-col-1, .footer-col-2, .footer-col-3 {
   font-size: 1.5rem;
+  font-weight: 900;
 }
 
 .footer-col-link {
@@ -408,4 +421,50 @@ nav .topbar-tech {
   padding: 10px;
   font-size: 1.5rem;
   color: #c9c9c9;
+}
+
+.footer-bottom {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  height: 80px;
+  border-top: 2px solid rgba(153, 153, 153, 0.2);
+}
+
+.footer-socialnetwork-follow {
+  font-size: 1.5rem;
+  padding-right: 10px;
+}
+
+.footer-socialnetwork {
+  flex-direction: row;
+  display: flex;
+  flex: 0 0 8%;
+  padding-right: 5px;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+
+.footer-socialnet {
+  display: flex;
+  flex-direction: row;
+  flex: 0 0 30%;
+  height: 50px;
+  width: 10px;
+}
+
+.footer-contact {
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-weight: 800;
+}
+
+.footer-copyright {
+  font-size: 1.5rem;
+}
+
+.footer-policy {
+  text-decoration: none;
 }
