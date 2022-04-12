@@ -30,6 +30,7 @@ body {
 .topbar {
     position: relative;
 }
+
 .topbar-right {
     position: absolute;
     display: flex;
@@ -84,7 +85,7 @@ nav .topbar-tech {
 
 .topbar-submenu-item {
     text-decoration: none;
-    display: none;
+   display: none;
 }
 
 /*.topbar-submenu {
@@ -121,8 +122,56 @@ nav .topbar-tech {
 
 .nav-container {
     display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.nav-logo-img {
+    height: 100px;
+    width: 300px;
+}
+
+.nav-links {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.nav-link {
     align-items: center;
     justify-content: space-between;
+    padding: 10px 80px;
+}
+
+.nav-trigger {
+    background-color: $color-main;
+    border: none;
+    font-size: 2rem;
+    font-weight: 800;
+}
+
+.nav-submenu {
+    display: none;
+}
+
+.nav-list ul:hover ul {
+    display: block;
+}
+
+
+/*
+.nav-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container-inner {
+    //max-width: 1280px;
+    width: 100%;
+    margin: 0 50px;
 }
 
 .nav-link {
@@ -148,13 +197,17 @@ nav .topbar-tech {
     justify-content: space-evenly;
 }
 
+.nav-list li:hover ul {
+    display: block;
+}
+
 .nav-trigger {
     position: relative;
     padding: 23px 20px 21px;
     background-color: $color-main;
     border: none;
 }
-
+*/
 /* MAIN */
 
 .home-hero {
