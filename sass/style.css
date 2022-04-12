@@ -127,6 +127,8 @@ nav .topbar-tech {
   align-items: center;
   justify-content: space-between;
   padding: 10px 80px;
+  list-style-type: none;
+  position: relative;
 }
 
 .nav-trigger {
@@ -138,10 +140,23 @@ nav .topbar-tech {
 
 .nav-submenu {
   display: none;
+  list-style-type: none;
+  font-size: 1.5rem;
+  padding: 10px 0;
+  transform: translateX(-50%);
+  position: absolute;
+  background-color: #fff;
+  left: 60%;
 }
 
 .nav-list ul:hover ul {
   display: block;
+}
+
+.nav-submenu-link {
+  text-decoration: none;
+  text-align: center;
+  font-size: 1.5rem;
 }
 
 /*
