@@ -22,7 +22,7 @@ body {
 /* HEADER */
 
 .container {
-    margin: 0 30px;
+    margin: 0 40px;
 }
 
 /* TOPBAR */
@@ -205,22 +205,15 @@ nav .topbar-tech {
 }
   /* SECTION REFERENCES */
 
-.container-inner2 {
-    width: 100%;
-    margin: 0 30px;
-}
-
 .block-head {
     display: flex;
     justify-content: space-between;
     padding: 10px;
-    line-height: 1;
 }
   
 .title-ref {
     font-size: 4rem;
     line-height: 46px;
-    font-family: $font-family;
 }
   
 .subtitle-ref {
@@ -232,7 +225,7 @@ nav .topbar-tech {
     display: flex;
     flex-wrap: wrap;
     padding-bottom: 60px;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
  
 .teasers-item {
@@ -244,36 +237,42 @@ nav .topbar-tech {
     background-image: url(https://www.kaliop.com/app/uploads/2019/01/franceconnect-thumb.jpg);
     background-size: cover;
     height: 40rem; 
+    width: 65rem;
 }
   
 .teasers-img2  {
     background-image: url(https://www.kaliop.com/app/uploads/2019/01/biogen-thumb.jpg);
     background-size: cover;
     height: 40rem;
+    width: 65rem;
 }
   
 .teasers-img3  {
     background-image: url(https://www.kaliop.com/app/uploads/2019/07/yelloh.png);  
     background-size: cover;
     height: 40rem;
+    width: 65rem;
 }
 
 .teasers-img4 {
     background-image: url(https://www.kaliop.com/app/uploads/2019/01/essilor-thumb.jpg);
     background-size: cover;
     height: 40rem;
+    width: 65rem;
 }
 
 .teasers-pin {
     //position: absolute;
-    display: flex;
-    padding: 6px 10px 5px;
+    padding: 10px 13px;
+    width: 175px;
+    text-align: center;
     font-size: 1.5rem;
     text-transform: uppercase;
     font-weight: 700;
     background-color: $color-pin;
     color: $color-main;
     border-radius: 30px;
+    transform: translate(10px, -100px);
     //z-index: 2;
     margin: 10px;
 }
@@ -286,10 +285,11 @@ nav .topbar-tech {
     font-weight: 600;
     text-decoration: none;
 }
+
 .teasers-tag {
     display: flex;
-
 }
+
 .teasers-links {
     cursor: pointer;
     text-decoration: none;
@@ -350,10 +350,27 @@ nav .topbar-tech {
 }
 
 .bloc-paragraph {
-    padding-bottom: 15px;
+    padding-bottom: 1px;
     opacity: .7;
     color: $color-prefooter;
+    font-size: 1.7rem;
 }
+
+.bloc-overlay-link {
+    text-decoration: none;
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+
+.bloc-content2 {
+    visibility: none;
+}
+
+.bloc-item:hover {
+    background-color: $color-prefooter;
+
+}
+
 
   /* SECTION PREFOOTER */
 
@@ -366,7 +383,7 @@ nav .topbar-tech {
 
 .title-prefooter {
     color: $color-main;
-    font-size: 2.5rem;
+    font-size: 3.5rem;
 }
 
 .prefooter-btn {
@@ -378,4 +395,41 @@ nav .topbar-tech {
 }
 
   /* FOOTER */
+
+  .footer-top {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 40px;
+    align-items: center;
+}
+
+.footer-logo {
+    height: 150px;
+    width: 300px;
+}
   
+.footer-columns {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 0 1 70%;
+    padding: 10px;
+}
+
+.footer-column {
+    flex-direction: column;
+    display: flex;
+    flex-grow: 1;
+}
+
+.footer-col-1, .footer-col-2, .footer-col-3 {
+    font-size: 1.5rem;
+}
+
+.footer-col-link {
+    text-decoration: none;
+    padding: 10px;
+    font-size: 1.5rem;
+    color: $color-subtitle-ref;
+}
+
