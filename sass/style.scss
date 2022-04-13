@@ -443,6 +443,30 @@ nav .topbar-tech {
     padding: 20px 0;
 }
 
+.teasers-links:hover {
+    color: $color-pin;
+    transition-duration: 1s;
+}
+
+.teasers-tag1:hover {
+    color: $color-pin;
+    transition-duration: 1s;
+}   
+.teasers-tag2:hover {
+    color: $color-pin;
+    transition-duration: 1s;
+}
+
+.teasers-tag3:hover {
+    color: $color-pin;
+    transition-duration: 1s;
+}
+
+.teasers-tag4:hover {
+    color: $color-pin;
+    transition-duration: 1s;
+}
+
 .teasers-links {
     cursor: pointer;
     text-decoration: none;
@@ -601,6 +625,10 @@ nav .topbar-tech {
     color: $color-subtitle-ref;
 }
 
+.footer-col-link:hover {
+    text-decoration: underline;
+}
+
 .footer-bottom {
     display: flex;
     flex-wrap: wrap;
@@ -648,5 +676,9 @@ nav .topbar-tech {
 
 .footer-policy {
     text-decoration: none; 
+}
+
+.footer-policy:hover {
+    text-decoration: underline;
 }
 

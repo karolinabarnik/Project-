@@ -424,6 +424,31 @@ nav .topbar-tech {
   padding: 20px 0;
 }
 
+.teasers-links:hover {
+  color: #4d7ae8;
+  transition-duration: 1s;
+}
+
+.teasers-tag1:hover {
+  color: #4d7ae8;
+  transition-duration: 1s;
+}
+
+.teasers-tag2:hover {
+  color: #4d7ae8;
+  transition-duration: 1s;
+}
+
+.teasers-tag3:hover {
+  color: #4d7ae8;
+  transition-duration: 1s;
+}
+
+.teasers-tag4:hover {
+  color: #4d7ae8;
+  transition-duration: 1s;
+}
+
 .teasers-links {
   cursor: pointer;
   text-decoration: none;
@@ -580,6 +605,10 @@ footer {
   color: #c9c9c9;
 }
 
+.footer-col-link:hover {
+  text-decoration: underline;
+}
+
 .footer-bottom {
   display: flex;
   flex-wrap: wrap;
@@ -624,4 +653,8 @@ footer {
 
 .footer-policy {
   text-decoration: none;
+}
+
+.footer-policy:hover {
+  text-decoration: underline;
 }
