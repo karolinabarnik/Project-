@@ -441,7 +441,7 @@ nav .topbar-tech {
 /* SECTION OFFERS */
 .offers {
   background-color: #f7f7f7;
-  padding-bottom: 200px;
+  padding: 20px 170px 200px 170px;
 }
 
 .block-head {
@@ -538,6 +538,10 @@ nav .topbar-tech {
 }
 
 /* FOOTER */
+footer {
+  padding: 20px 170px;
+}
+
 .footer-top {
   display: flex;
   justify-content: space-between;
