@@ -176,6 +176,11 @@ nav .topbar-tech {
     font-size: 1.5rem;
 }
 
+.nav-submenu-link:hover {
+    background-color: $color-main;
+}
+
+//.nav-list ul ul a:hover {}
 
 /*
 .nav-container {
@@ -233,45 +238,57 @@ nav .topbar-tech {
     background-image: url(https://www.kaliop.com/app/uploads/2021/09/Key-visual-Hero-Home-scaled.jpg);
     background-size: cover;
     background-position: center center;
-    background-attachment: fixed;
     color: $color-main;
     position: relative;
 }   
 
 .home-hero-block {
-    font-size: 2.4rem;
-    font-weight: 800;
+    font-size: 3rem;
     line-height: 1.22; 
     color: $color-main; 
     display: flex;
     align-items: center;
-    text-align: center;
+    //text-align: center;
     justify-content: center;
+    position: relative;
 }
 
 .home-hero-title {
     justify-content: center;
+    position: absolute;
+    text-align: center;
+    font-weight: 800;
+    transform: translate( 0, 175%);
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .home-hero-links {
     width: 100%;
     position: absolute;
     transform: translate(20%, 1550%);
+    font-weight: 800;
 }
 
 .home-hero-link {
-    width: 290px;
-    padding: 20px 80px;
-    margin: 10px 20px;
+    width: 190px;
+    padding: 40px 80px;
+    margin: 0 20px;
     color: $color-main;
     font-size: 2rem;
-    font-weight: 700;
+    font-weight: 800;
     transition: .3s;
     background-color: rgba(3,12,17,.7);
     border-radius: 52px;
     cursor: pointer;
     transition: background-color .25s ease;
     text-decoration: none;    
+}
+
+.home-hero-link:hover {
+    background-color: $color-nav-tech;
+    transition-duration: 0.25s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
 }
   /* SECTION REFERENCES */
 
@@ -561,5 +578,5 @@ nav .topbar-tech {
 }
 
 .footer-policy {
-    text-decoration: none;
+    text-decoration: none; 
 }
