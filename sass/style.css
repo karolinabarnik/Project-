@@ -444,21 +444,21 @@ nav .topbar-tech {
   padding: 20px 170px 200px 170px;
 }
 
-.block-head {
-  display: flex;
-  justify-content: space-between;
-  flex-direction: column;
+.bloc-head-off {
+  font-weight: 800;
 }
 
 .title-offers {
   font-size: 4rem;
-  font-family: "Inter", sans-serif;
-  font-weight: 800;
+  font-weight: 900;
+  margin-bottom: 1px;
 }
 
 .subtitle-offers {
   font-size: 3rem;
   color: #c9c9c9;
+  font-weight: 800;
+  margin-top: 1px;
 }
 
 .blocs-overlay {
@@ -575,7 +575,7 @@ footer {
 
 .footer-col-link {
   text-decoration: none;
-  padding: 10px;
+  padding: 10px 0px;
   font-size: 1.5rem;
   color: #c9c9c9;
 }

@@ -464,20 +464,21 @@ nav .topbar-tech {
     padding: 20px 170px 200px 170px;
 }
 
-.block-head {
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column;
+.bloc-head-off {
+    font-weight: 800;
 }
 
 .title-offers {
     font-size: 4rem;
-    font-family: $font-family;
-    font-weight: 800;
+    font-weight: 900;
+    margin-bottom: 1px;
 }
+
 .subtitle-offers {
     font-size: 3rem;
     color: $color-subtitle-ref;
+    font-weight: 800;
+    margin-top: 1px;
 }
 
 .blocs-overlay {
@@ -521,9 +522,7 @@ nav .topbar-tech {
 
 .bloc-item:hover {
     background-color: $color-prefooter;
-
 }
-
 
   /* SECTION PREFOOTER */
 
@@ -563,7 +562,7 @@ nav .topbar-tech {
   footer {
     padding: 20px 170px;
   }
-  
+
   .footer-top {
     display: flex;
     justify-content: space-between;
@@ -597,7 +596,7 @@ nav .topbar-tech {
 
 .footer-col-link {
     text-decoration: none;
-    padding: 10px;
+    padding: 10px 0px;
     font-size: 1.5rem;
     color: $color-subtitle-ref;
 }
@@ -650,3 +649,4 @@ nav .topbar-tech {
 .footer-policy {
     text-decoration: none; 
 }
+
