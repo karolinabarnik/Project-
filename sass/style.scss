@@ -25,13 +25,20 @@ body {
     margin: 0 auto;
 }
 
-.header {
+header {
     position: fiexed;
     top: 0;
     left: 0;
     width: 100%;
     z-index: 99;
     background-color: #fff;
+}
+.one {
+    display: block;
+    position: fixed;
+}
+.one.active{
+    top: 0px;
 }
 
 /* TOPBAR */
@@ -176,7 +183,7 @@ nav .topbar-tech {
 }
 
 .nav-link {
-    padding: 10px 10px;
+    padding: 10px 30px;
     list-style-type: none;
     position: relative;
 }
@@ -200,7 +207,8 @@ nav .topbar-tech {
     background-color: $color-main;
     left: 50%;
     text-align: center;  
-    border-radius: 8%;  
+    border-radius: 4%;  
+    top: 140%;
 }
 
 .nav-separator1 {
@@ -211,6 +219,7 @@ nav .topbar-tech {
     font-size: 1.5rem;
     text-decoration: none;
     font-weight: 800;
+    border-top: 2px solid hsla(0,0%,60%,.2);
     transition: background-color .25s ease,opacity .25s ease .35s,color .25s ease;
 }
 
@@ -222,7 +231,9 @@ nav .topbar-tech {
     text-decoration: none;
     text-align: center;
     font-size: 1.5rem;
-    width: 3rem;;
+    width: 5rem;
+    padding-top: 5px;
+    line-height: 3rem;
 }
 
 .nav-submenu-link:hover {
