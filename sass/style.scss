@@ -10,19 +10,28 @@ $color-prefooter: #242424;
 
 
 body {
-    margin: 60px 0 0;
     padding-top: 0!important;
     color: #000;
     background-color: $color-main;
-    font-size: .8rem;
+    font-size: 1rem;
     font-family: $font-family;
     line-height: 1.375;
+    margin: 0;
 }
 
 /* HEADER */
 
 .container {
-    margin: 0 40px;
+    margin: 0 auto;
+}
+
+.header {
+    position: fiexed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 99;
+    background-color: #fff;
 }
 
 /* TOPBAR */
@@ -35,11 +44,14 @@ body {
     position: absolute;
     display: flex;
     align-items: center;
-    padding: 0;
+    font-size: 1rem;
     top: 0;
     right: 0;
-    background-color: $color-nav;
+    background-color: $color-search;
     border: 0;
+}
+.topbar-lang-choose {
+    font-size: 1rem;
 }
 
 .topbar-search {
@@ -53,7 +65,9 @@ body {
     display: flex;
     list-style: none;
     margin: 0;
-    padding: 0;
+    padding: 20px 80px;
+    font-size: 1.5rem;
+    justify-content: flex-start;
 }
 
 nav li {
@@ -77,15 +91,20 @@ nav .topbar-tech {
     background-color: $color-nav;
     cursor: pointer;
     position: relative;
+    font-size: 1.5rem;
+    padding: 0 30px;
 }
 
+.topbar-item {
+    padding-right: 80px;
+}
 .topbar-trigger:hover{
     color: $color-nav-tech;
 }
 
 .topbar-submenu-item {
     text-decoration: none;
-   display: none;
+    display: none;
 }
 
 /*.topbar-submenu {
@@ -113,19 +132,29 @@ nav .topbar-tech {
 }
 
 /* NAV */
+.nav {
+    z-index: 1;
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    padding: 10px 30px;
+}
 
 .container-inner {
-    //max-width: 1280px;
+    max-width: 1280px;
     width: 100%;
-    margin: 0 50px;
+    margin: 0 auto;
 }
 
 .nav-container {
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding-top: 50px;
+    padding: 10px 50px;   
+    justify-content: flex-start;  
+}
+
+.nav-content {
+    justify-content: flex-start;
 }
 
 .nav-logo-img {
@@ -137,15 +166,19 @@ nav .topbar-tech {
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: flex-end;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: flex-end;
+   
 }
 
 .nav-link {
-    align-items: center;
-    justify-content: space-between;
-    padding: 10px 80px;
+    padding: 10px 10px;
     list-style-type: none;
     position: relative;
-
 }
 
 .nav-trigger {
@@ -153,17 +186,32 @@ nav .topbar-tech {
     border: none;
     font-size: 2rem;
     font-weight: 800;
+    padding: 0 80px;
 }
 
 .nav-submenu {
     display: none;
+    width: 50%;
     list-style-type: none;
-    font-size: 1.5rem;
-    padding: 10px 0;
+    font-size: 1rem;
+    padding: 15px 80px;
     transform: translateX(-50%);
     position: absolute;
     background-color: $color-main;
-    left: 60%;
+    left: 50%;
+    text-align: center;  
+    border-radius: 8%;  
+}
+
+.nav-separator1 {
+    display: block;
+    margin: 5px 0 0;
+    color: #4d7ae8;
+    text-align: center;
+    font-size: 1.5rem;
+    text-decoration: none;
+    font-weight: 800;
+    transition: background-color .25s ease,opacity .25s ease .35s,color .25s ease;
 }
 
 .nav-list ul:hover ul {
@@ -174,6 +222,7 @@ nav .topbar-tech {
     text-decoration: none;
     text-align: center;
     font-size: 1.5rem;
+    width: 3rem;;
 }
 
 .nav-submenu-link:hover {
@@ -265,7 +314,7 @@ nav .topbar-tech {
 .home-hero-links {
     width: 100%;
     position: absolute;
-    transform: translate(20%, 1550%);
+    transform: translate(-5%, 1550%);
     font-weight: 800;
 }
 
@@ -312,40 +361,41 @@ nav .topbar-tech {
     display: flex;
     flex-wrap: wrap;
     padding-bottom: 60px;
-    justify-content: space-between;
+   // justify-content: space-between;
 }
  
 .teasers-item {
     flex: 0 0 40%;
-    margin: 20px 10px;
+   // margin: 30px;
+    //@at-root: 10px; 
 }
 
 .teasers-img {
     background-image: url(https://www.kaliop.com/app/uploads/2019/01/franceconnect-thumb.jpg);
     background-size: cover;
     height: 40rem; 
-    width: 65rem;
+    width: 60rem;
 }
   
 .teasers-img2  {
     background-image: url(https://www.kaliop.com/app/uploads/2019/01/biogen-thumb.jpg);
     background-size: cover;
     height: 40rem;
-    width: 65rem;
+    width: 60rem;
 }
   
 .teasers-img3  {
     background-image: url(https://www.kaliop.com/app/uploads/2019/07/yelloh.png);  
     background-size: cover;
     height: 40rem;
-    width: 65rem;
+    width: 60rem;
 }
 
 .teasers-img4 {
     background-image: url(https://www.kaliop.com/app/uploads/2019/01/essilor-thumb.jpg);
     background-size: cover;
     height: 40rem;
-    width: 65rem;
+    width: 60rem;
 }
 
 .teasers-pin {
