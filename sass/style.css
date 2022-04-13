@@ -62,7 +62,7 @@ header {
   display: flex;
   list-style: none;
   margin: 0;
-  padding: 20px 80px;
+  padding: 40px 180px;
   font-size: 1.5rem;
   justify-content: flex-start;
 }
@@ -134,7 +134,7 @@ nav .topbar-tech {
   position: relative;
   display: flex;
   justify-content: flex-start;
-  padding: 10px 30px;
+  padding: 10px 130px;
 }
 
 .container-inner {
@@ -336,6 +336,10 @@ nav .topbar-tech {
 }
 
 /* SECTION REFERENCES */
+.references {
+  padding: 20px 170px;
+}
+
 .block-head {
   display: flex;
   justify-content: space-between;
@@ -345,6 +349,7 @@ nav .topbar-tech {
 .title-ref {
   font-size: 4rem;
   line-height: 46px;
+  font-weight: 800;
 }
 
 .subtitle-ref {
@@ -359,35 +364,36 @@ nav .topbar-tech {
 }
 
 .teasers-item {
-  flex: 0 0 40%;
+  flex: 0 0 50%;
+  margin: 0 auto;
 }
 
 .teasers-img {
   background-image: url(https://www.kaliop.com/app/uploads/2019/01/franceconnect-thumb.jpg);
   background-size: cover;
   height: 40rem;
-  width: 60rem;
+  width: 70rem;
 }
 
 .teasers-img2 {
   background-image: url(https://www.kaliop.com/app/uploads/2019/01/biogen-thumb.jpg);
   background-size: cover;
   height: 40rem;
-  width: 60rem;
+  width: 70rem;
 }
 
 .teasers-img3 {
   background-image: url(https://www.kaliop.com/app/uploads/2019/07/yelloh.png);
   background-size: cover;
   height: 40rem;
-  width: 60rem;
+  width: 70rem;
 }
 
 .teasers-img4 {
   background-image: url(https://www.kaliop.com/app/uploads/2019/01/essilor-thumb.jpg);
   background-size: cover;
   height: 40rem;
-  width: 60rem;
+  width: 70rem;
 }
 
 .teasers-pin {
@@ -401,20 +407,21 @@ nav .topbar-tech {
   color: #fff;
   border-radius: 30px;
   transform: translate(10px, -100px);
-  margin: 10px;
+  margin: 5px;
 }
 
 .teasers-tag1, .teasers-tag2, .teasers-tag3, .teasers-tag4 {
   display: flex;
   flex-wrap: wrap;
-  font-family: "Inter", sans-serif;
   font-size: 2rem;
   font-weight: 600;
   text-decoration: none;
+  padding: 20px 0;
 }
 
 .teasers-tag {
   display: flex;
+  padding: 20px 0;
 }
 
 .teasers-links {
