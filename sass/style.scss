@@ -493,15 +493,15 @@ nav .topbar-tech {
 }
 
 .title-offers {
-    font-size: 4rem;
-    font-weight: 900;
+    font-size: 4.5rem;
+    font-weight: 800;
     margin-bottom: 1px;
 }
 
 .subtitle-offers {
-    font-size: 3rem;
+    font-size: 4rem;
     color: $color-subtitle-ref;
-    font-weight: 800;
+    font-weight: 500;
     margin-top: 1px;
 }
 
@@ -520,32 +520,99 @@ nav .topbar-tech {
     background-color: $color-main;
     color: $color-nav;
     margin-top: 65px;
+    height: 388px;
+    width: 410px;
 }
 
 .bloc-tit1 {
-    font-weight: 900;
-    font-size: 2rem;
+    font-weight: 700;
+    font-size: 2.5rem;
+    margin: 30px 30px 5px 30px;
 }
 
 .bloc-paragraph {
-    padding-bottom: 1px;
+    padding-bottom: 5px;
     opacity: .7;
     color: $color-prefooter;
-    font-size: 1.7rem;
+    font-size: 1.8rem;
+    margin: 5px 30px 30px 30px;
 }
 
-.bloc-overlay-link {
+.offer-link {
     text-decoration: none;
+    display: flex;
+    position: relative;
+    padding-top: 25px;
     font-size: 2rem;
+    font-weight: 700;
     text-transform: uppercase;
 }
-
 .bloc-content2 {
-    visibility: none;
+    display: none;
+    position: absolute;
 }
 
 .bloc-item:hover {
     background-color: $color-prefooter;
+}
+
+.bloc-item:hover .bloc-content2 {
+    display: inline;
+}
+
+.bloc-item:hover .bloc-content {
+    display: none;
+}
+
+.bloc-overlay-tit1 {
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    color: $color-main;
+    padding: 50px 20px 50px 20px;
+    margin-top: 150px;
+    margin-bottom: 80px;
+}
+
+.bloc-overlay-item {
+    color: $color-main;
+    width: 150px;
+    position: relative;
+    transform: translate(-180%, 4000%)
+}
+
+.bloc-overlay-item2 {
+    color: $color-main;
+    width: 150px;
+    position: relative;
+    transform: translate(-130%, 4000%)
+}
+
+.bloc-overlay-item3 {
+    color: $color-main;
+    width: 150px;
+    position: relative;
+    transform: translate(-195%, 4000%)
+}
+
+.bloc-overlay-item4 {
+    color: $color-main;
+    width: 150px;
+    position: relative;
+    transform: translate(-120%, 4000%)
+}
+
+.bloc-overlay-item5 {
+    color: $color-main;
+    width: 150px;
+    position: relative;
+    transform: translate(-150%, 4000%)
+}
+
+.bloc-overlay-item6 {
+    color: $color-main;
+    width: 150px;
+    position: relative;
+    transform: translate(-160%, 4000%)
 }
 
   /* SECTION PREFOOTER */
@@ -593,11 +660,13 @@ nav .topbar-tech {
     flex-wrap: wrap;
     padding-top: 40px;
     align-items: center;
+    margin-top: 150px;
+    margin-bottom: 150px;
 }
 
 .footer-logo {
-    height: 100px;
-    width: 200px;
+    height: 200px;
+    width: 350px;
 }
   
 .footer-columns {
@@ -614,14 +683,14 @@ nav .topbar-tech {
 }
 
 .footer-col-1, .footer-col-2, .footer-col-3 {
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     font-weight: 900;
 }
 
 .footer-col-link {
     text-decoration: none;
     padding: 10px 0px;
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     color: $color-subtitle-ref;
 }
 
@@ -640,9 +709,9 @@ nav .topbar-tech {
 }
 
 .footer-socialnetwork-follow {
-    font-size: 1.5rem;
-    //font-weight: 900;
-    padding-right: 10px;
+    font-size: 1.8rem;
+    font-weight: 800;
+    padding-right: 30px;
 }
 
 .footer-socialnetwork {
@@ -650,28 +719,31 @@ nav .topbar-tech {
     display: flex;
     flex: 0 0 8%;
     padding-right: 5px;
-    align-items: center;
+    align-items: center; 
     flex-wrap: nowrap;
 }
 
 .footer-socialnet {
     display: flex;
     flex-direction: row;
- // justify-content: center;
+    justify-content: center;
     flex: 0 0 30%;
-    height: 50px;
+    height: 40px;
     width: 10px;
-    
 }
 
 .footer-contact {
     text-decoration: none;
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     font-weight: 800;
 }
 
+.footer-contact:visited {
+    color:$color-nav;
+}
+
 .footer-copyright {
-    font-size: 1.5rem;
+    font-size: 1.8rem;
 }
 
 .footer-policy {
@@ -680,5 +752,12 @@ nav .topbar-tech {
 
 .footer-policy:hover {
     text-decoration: underline;
+}
+.footer-policy:visited {
+    color: $color-nav;
+}
+
+.icon-footer-copyright {
+    font-weight: 800;
 }
 
