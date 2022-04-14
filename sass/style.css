@@ -519,14 +519,14 @@ nav .topbar-tech {
   margin: 5px 30px 30px 30px;
 }
 
-.offer-link {
-  text-decoration: none;
-  display: flex;
-  position: relative;
+.bloc-overlay-icon {
   padding-top: 25px;
   font-size: 2rem;
   font-weight: 700;
   text-transform: uppercase;
+  margin: 30px;
+  top: -90px;
+  right: 150px;
 }
 
 .bloc-content2 {
@@ -560,6 +560,10 @@ nav .topbar-tech {
   width: 150px;
   position: relative;
   transform: translate(-180%, 4000%);
+}
+
+.bloc-overlay-link2 {
+  text-decoration: none;
 }
 
 .bloc-overlay-item2 {
