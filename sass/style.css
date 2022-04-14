@@ -413,8 +413,8 @@ nav .topbar-tech {
 .teasers-tag1, .teasers-tag2, .teasers-tag3, .teasers-tag4 {
   display: flex;
   flex-wrap: wrap;
-  font-size: 2rem;
-  font-weight: 600;
+  font-size: 2.5rem;
+  font-weight: 700;
   text-decoration: none;
   padding: 20px 0;
 }
@@ -457,10 +457,19 @@ nav .topbar-tech {
   flex-wrap: wrap;
   font-family: "Inter", sans-serif;
   font-size: 2rem;
-  font-weight: 800;
+  font-weight: 600;
   color: #030c11;
   font-style: italic;
-  padding: 10px;
+  padding: 0px 20px 0px 10px;
+}
+
+.teasers-border {
+  border-right: 1px solid #030c11;
+  height: 36px;
+}
+
+.teasers-border2 {
+  padding-left: 20px;
 }
 
 /* SECTION OFFERS */
