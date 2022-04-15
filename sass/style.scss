@@ -385,6 +385,11 @@ nav .topbar-tech {
     margin: 0 auto;
 }
 
+.teasers-image {   
+    display: block;
+    overflow: hidden;
+}
+
 .teasers-img {
     background-image: url(https://www.kaliop.com/app/uploads/2019/01/franceconnect-thumb.jpg);
     background-size: cover;
@@ -397,7 +402,112 @@ nav .topbar-tech {
     position: absolute;
     transform: translate(50%, 90%);
 }
-  
+
+.teasers-img-logo-active {
+    display: none;
+}
+
+.teasers-item:hover .teasers-img-logo-active {
+    display: inline;
+}
+
+.teasers-item:hover .teasers-logo-background {
+    display: none;
+}
+
+.teasers-img-link-active {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: $color-main;
+    font-size: 2rem;
+    font-weight: 700;    
+    position: absolute;
+    transform: translate(70%, -1000%);
+    transition: .3s;
+}
+
+.teasers-img-link-active2 {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: $color-main;
+    font-size: 2rem;
+    font-weight: 700;    
+    position: absolute;
+    transform: translate(70%, -850%);
+    transition: .3s;
+}
+
+.teasers-item:hover .teasers-logo-background2 {
+    display: none;
+}
+
+.teasers-img-link-active3 {    
+    position: absolute;
+    transform: translate(80%, -202%);
+    transition: .3s;
+    height: 200px;
+    width: 400px;
+}
+
+.teasers-item:hover .teasers-logo-background3 {
+    display: none;
+}
+
+.teasers-img-link-active4 {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: $color-main;
+    font-size: 2rem;
+    font-weight: 700;    
+    position: absolute;
+    transform: translate(70%, -850%);
+    transition: .3s;
+}
+
+.teasers-item:hover .teasers-logo-background4 {
+    display: none;
+}
+
+.teasers-img:hover {
+    filter: brightness(30%);
+    transform: scale(1.05);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    z-index: 0;
+    transition-duration: .7s;
+}
+
+.teasers-img2:hover {
+    filter: brightness(30%);
+    transform: scale(1.05);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    z-index: 0;
+    transition-duration: .7s;
+}
+
+.teasers-img3:hover {
+    filter: brightness(30%);
+    transform: scale(1.05);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    z-index: 0;
+    transition-duration: .7s;
+}
+
+.teasers-img4:hover {
+    filter: brightness(30%);
+    transform: scale(1.05);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    z-index: 0;
+    transition-duration: .7s;
+}
+
+.teasers-item:hover .teasers-pin {
+    filter: brightness(30%);
+
+}
 .teasers-img2  {
     background-image: url(https://www.kaliop.com/app/uploads/2019/01/biogen-thumb.jpg);
     background-size: cover;
