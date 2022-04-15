@@ -390,6 +390,12 @@ nav .topbar-tech {
     background-size: cover;
     height: 40rem; 
     width: 70rem;
+    position: relative;
+}
+
+.teasers-logo-background {
+    position: absolute;
+    transform: translate(50%, 90%);
 }
   
 .teasers-img2  {
@@ -397,6 +403,14 @@ nav .topbar-tech {
     background-size: cover;
     height: 40rem;
     width: 70rem;
+    position: relative;
+}
+
+.teasers-logo-background2 {
+    position: absolute;
+    transform: translate(80%, 115%);
+    height: 200px;
+    width: 400px;
 }
   
 .teasers-img3  {
@@ -406,11 +420,25 @@ nav .topbar-tech {
     width: 70rem;
 }
 
+.teasers-logo-background3 {
+    position: absolute;
+    transform: translate(80%, 115%);
+    height: 200px;
+    width: 400px;
+}
+
 .teasers-img4 {
     background-image: url(https://www.kaliop.com/app/uploads/2019/01/essilor-thumb.jpg);
     background-size: cover;
     height: 40rem;
     width: 70rem;
+}
+
+.teasers-logo-background4 {
+    position: absolute;
+    transform: translate(80%, 120%);
+    height: 200px;
+    width: 400px;
 }
 
 .teasers-pin {
