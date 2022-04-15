@@ -108,8 +108,17 @@ nav .topbar-tech {
   text-decoration: none;
   display: none;
   position: absolute;
-  z-index: 1;
-  min-width: 190px;
+  min-width: 70px;
+  list-style-type: none;
+  font-size: 1rem;
+  padding: 15px 15px;
+  transform: translateX(-50%);
+  background-color: #fff;
+  left: 40%;
+  top: 170%;
+  z-index: 5;
+  overflow: auto;
+  border-radius: 4%;
 }
 
 .show {
@@ -123,6 +132,17 @@ nav .topbar-tech {
   text-align: center;
   background-color: #fff;
   color: #030c11;
+  font-size: 1.5rem;
+  line-height: 3rem;
+  min-width: 280px;
+  padding: 5px 40px;
+  margin: 5px 15px;
+}
+
+.topbar-submenu-item:hover {
+  background-color: #1be2bc;
+  border-radius: 7%;
+  transition-duration: .4s;
 }
 
 /*.topbar-submenu {
