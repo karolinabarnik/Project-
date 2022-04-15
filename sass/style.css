@@ -94,6 +94,10 @@ nav .topbar-tech {
   font-weight: 700;
 }
 
+.material-icons-outlined {
+  color: white;
+}
+
 .topbar-item {
   padding-right: 80px;
   position: relative;
