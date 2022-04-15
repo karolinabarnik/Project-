@@ -19,8 +19,8 @@
                     <a class="topbar-tech" href="https://www.kaliop.com/en/technologies/">Technologies</a>
                 </li>
                 <li class="topbar-item">
-                    <button class="topbar-trigger">Consulting & Innovation</button>
-                    <ul class="topbar-submenu">
+                    <button class="topbar-trigger" onclick="consultingList()">Consulting & Innovation</button>
+                    <ul id="myDropdown1" class="topbar-submenu">
                         <li>
                             <a class="topbar-submenu-item" href="https://www.kaliop.com/en/expertises/our-devops-cloud-expertise/">Clound & DevOps</a>
                         </li>
@@ -33,22 +33,14 @@
                     <a class="topbar-trigger" href="https://www.kaliop.com/en/jobs/">Jobs</a>
                 </li>
                 <li class="topbar-item">
-                    <button class="topbar-trigger">Company</button>
-                    <ul class="topbar-submenu">
-                        <li>
-                            <a class="topbar-submenu-item" href="https://www.kaliop.com/en/about-us/">About us</a>
-                        </li>
-                        <li>
-                            <a class="topbar-submenu-item" href="https://www.kaliop.com/en/blog/#news">News</a>
-                        </li>
-                        <li>
-                            <a class="topbar-submenu-item" href="https://www.kaliop.com/en/csr/">Commitment</a>
-                        </li>
-                    </ul>
+                    <a class="topbar-trigger" href="https://www.kaliop.com/en/about-us/">About us</a>
                 </li>
                 <li class="topbar-item">
-                    <button class="topbar-trigger">Customers</button>
-                    <ul class="topbar-submenu">
+                    <a class="topbar-trigger" href="https://www.kaliop.com/en/csr/">Commitment</a>
+                </li>
+                <li class="topbar-item">
+                    <button class="topbar-trigger" onclick="customersList()">Customers</button>
+                    <ul id="myDropdown2" class="topbar-submenu">
                         <li>
                             <a class="topbar-submenu-item" href="https://www.kaliop.com/en/references/">All industries</a>
                         </li>
@@ -79,8 +71,8 @@
                     </ul>
                 </li>
                 <li class="topbar-item">
-                    <button class="topbar-trigger">Publications</button>
-                    <ul class="topbar-submenu">
+                    <button class="topbar-trigger" onclick="publicationsList()">Publications</button>
+                    <ul id="myDropdown3" class="topbar-submenu">
                         <li>
                             <a class="topbar-submenu-item" href="https://www.kaliop.com/en/blog/">Blog</a>
                         </li>
@@ -121,8 +113,8 @@
                 <div class="nav-list">
                     <ul class="nav-links">
                         <li class="nav-link">
-                            <button class="nav-trigger">Web</button>
-                            <ul class="nav-submenu">
+                            <button class="nav-trigger" onclick="webList()">Web</button>
+                            <ul class="nav-submenu" id="dropdown1">
                                 <li>
                                     <a class="nav-submenu-link" href="https://www.kaliop.com/en/sub-expertises/digital-platform/">Digital platform</a>
                                 </li>
@@ -140,8 +132,8 @@
                             </ul>
                         </li>
                         <li class="nav-link">
-                            <button class="nav-trigger">Digital commerce</button>
-                            <ul class="nav-submenu">
+                            <button class="nav-trigger" onclick="digitalList()">Digital commerce</button>
+                            <ul class="nav-submenu" id="dropdown2">
                                 <li>
                                     <a class="nav-submenu-link" href="https://www.kaliop.com/en/sub-expertises/e-commerce/">E-commerce platforms</a>
                                 </li>
@@ -161,8 +153,8 @@
                             </ul>
                         </li>
                         <li class="nav-link">
-                            <button class="nav-trigger">Mobile</button>
-                            <ul class="nav-submenu">
+                            <button class="nav-trigger" onclick="mobileList()">Mobile</button>
+                            <ul class="nav-submenu" id="dropdown3">
                                 <li>
                                     <a class="nav-submenu-link" href="https://www.kaliop.com/en/sub-expertises/native-mobile-application/">Mobile application</a>
                                 </li>
@@ -179,8 +171,8 @@
                             </ul>
                         </li>
                         <li class="nav-link">
-                            <button class="nav-trigger">Digital Marketing</button>
-                            <ul class="nav-submenu">
+                            <button class="nav-trigger" onclick="digitalMarketingList()">Digital Marketing</button>
+                            <ul id="dropdown4" class="nav-submenu">
                                 <li>
                                     <a class="nav-submenu-link" href="https://www.kaliop.com/en/sub-expertises/digital-marketing-strategy/">Digital Marketing Strategy</a>
                                 </li>
@@ -206,8 +198,8 @@
                             </ul>
                         </li>
                         <li class="nav-link">
-                            <button class="nav-trigger">IoT</button>
-                            <ul class="nav-submenu">
+                            <button class="nav-trigger" onclick="iotList()">IoT</button>
+                            <ul id="dropdown5" class="nav-submenu">
                                 <li>
                                     <a class="nav-submenu-link" href="https://www.kaliop.com/en/sub-expertises/notre-expertise-pilotage-de-projets-iot/">IoT project management</a>
                                 </li>
@@ -537,5 +529,6 @@
         </div>
     </footer>  
     <script src="/Project-/js/script.js"></script>
+    <script src="/js/dropdownmenu.js"></script>
 </body>
 </html>
