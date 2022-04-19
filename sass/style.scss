@@ -1,8 +1,13 @@
+@import './partrials/normalize';
 
-@import '/sass/patrials/normalize';
-@import '/sass/patrials/navigation';
-@import '/sass/patrials/main';
-@import '/sass/patrials/references';
-@import '/sass/patrials/offers';
-@import '/sass/patrials/footer';
-@import '/sass/patrials/media';
+@import './partrials/navigation';
+
+@import './partrials/main';
+
+@import './partrials/references';
+
+@import './partrials/offers';
+
+@import './partrials/footer';
+
+@import './partrials/media';
