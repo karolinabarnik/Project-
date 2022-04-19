@@ -1,0 +1,146 @@
+/* SECTION PREFOOTER */
+
+.prefooter {
+    position: relative;
+    padding: 150px 0;
+    text-align: center;
+    background-color: $color-prefooter;
+}
+
+.prefooter-logo {
+    background-image: src="/Project-/logo.jpg";
+}
+.title-prefooter {
+    color: $color-main;
+    font-size: 4.5rem;
+}
+
+.prefooter-btn {
+    color: $color-main;
+    background-color: $color-pin;
+    border: none;
+    padding: 30px 60px;
+    font-size: 2rem;
+    font-weight: 800;
+    transition-duration: 1.3s;
+    cursor: pointer;
+}
+
+.prefooter-btn:hover {
+    background-color: $color-main;
+    color: $color-pin;
+}
+
+  /* FOOTER */
+
+  footer {
+    padding: 20px 170px;
+  }
+
+  .footer-top {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 40px;
+    align-items: center;
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+
+.footer-logo {
+    height: 200px;
+    width: 350px;
+}
+  
+.footer-columns {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 0 1 70%;
+    padding: 10px;
+}
+
+.footer-column {
+    flex-direction: column;
+    display: flex;
+    flex-grow: 1;
+}
+
+.footer-col-1, .footer-col-2, .footer-col-3 {
+    font-size: 1.8rem;
+    font-weight: 900;
+}
+
+.footer-col-link {
+    text-decoration: none;
+    padding: 10px 0px;
+    font-size: 1.8rem;
+    color: $color-subtitle-ref;
+}
+
+.footer-col-link:hover {
+    text-decoration: underline;
+}
+
+.footer-bottom {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    height: 80px;
+    border-top: 2px solid hsla(0,0%,60%,.2);
+}
+
+.footer-socialnetwork-follow {
+    font-size: 1.8rem;
+    font-weight: 800;
+    padding-right: 30px;
+}
+
+.footer-socialnetwork {
+    flex-direction: row;
+    display: flex;
+    flex: 0 0 8%;
+    padding-right: 5px;
+    align-items: center; 
+    flex-wrap: nowrap;
+}
+
+.footer-socialnet {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex: 0 0 30%;
+    height: 40px;
+    width: 10px;
+}
+
+.footer-contact {
+    text-decoration: none;
+    font-size: 1.8rem;
+    font-weight: 800;
+}
+
+.footer-contact:visited {
+    color:$color-nav;
+}
+
+.footer-copyright {
+    font-size: 1.8rem;
+}
+
+.footer-policy {
+    text-decoration: none; 
+}
+
+.footer-policy:hover {
+    text-decoration: underline;
+}
+.footer-policy:visited {
+    color: $color-nav;
+}
+
+.icon-footer-copyright {
+    font-weight: 800;
+}
+

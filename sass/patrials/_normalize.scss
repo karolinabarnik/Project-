@@ -1,0 +1,19 @@
+$font-color: #fff;
+$font-family: 'Inter', sans-serif;
+$color-nav: #030c11;
+$color-nav-tech: #1be2bc;
+$color-main: #fff;
+$color-search: #1448ed;
+$color-subtitle-ref: #c9c9c9;
+$color-pin: #4d7ae8;
+$color-prefooter: #242424;
+
+body {
+    padding-top: 0!important;
+    color: #000;
+    background-color: $color-main;
+    font-size: 1rem;
+    font-family: $font-family;
+    line-height: 1.375;
+    margin: 0;
+}

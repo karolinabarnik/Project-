@@ -1,0 +1,138 @@
+/* SECTION OFFERS */
+
+.offers {
+    background-color: rgb(247, 247, 247);
+    padding: 20px 170px 200px 170px;
+}
+
+.bloc-head-off {
+    font-weight: 800;
+}
+
+.title-offers {
+    font-size: 4.5rem;
+    font-weight: 800;
+    margin-bottom: 1px;
+}
+
+.subtitle-offers {
+    font-size: 4rem;
+    color: $color-subtitle-ref;
+    font-weight: 500;
+    margin-top: 1px;
+}
+
+.blocs-overlay {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+.bloc-item {
+    border: solid 1px $color-prefooter;
+    flex: 0 0 30%;
+    padding: 15px;
+    background-color: $color-main;
+    color: $color-nav;
+    margin-top: 65px;
+    height: 388px;
+    width: 410px;
+}
+
+.bloc-tit1 {
+    font-weight: 700;
+    font-size: 2.5rem;
+    margin: 30px 30px 5px 30px;
+}
+
+.bloc-paragraph {
+    padding-bottom: 5px;
+    opacity: .7;
+    color: $color-prefooter;
+    font-size: 1.8rem;
+    margin: 5px 30px 30px 30px;
+}
+
+.bloc-overlay-icon {
+    padding-top: 25px;
+    font-size: 2rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 30px;
+    top: -90px;
+    right: 150px;
+}
+
+.bloc-content2 {
+    display: none;
+    position: absolute;
+}
+
+.bloc-item:hover {
+    background-color: $color-prefooter;
+}
+
+.bloc-item:hover .bloc-content2 {
+    display: inline;
+}
+
+.bloc-item:hover .bloc-content {
+    display: none;
+}
+
+.bloc-overlay-tit1 {
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    color: $color-main;
+    padding: 50px 20px 50px 20px;
+    margin-top: 150px;
+    margin-bottom: 80px;
+}
+
+.bloc-overlay-item {
+    color: $color-main;
+    width: 150px;
+    position: relative;
+    transform: translate(-180%, 4000%)
+}
+
+.bloc-overlay-link2 {
+    text-decoration: none;
+}
+
+.bloc-overlay-item2 {
+    color: $color-main;
+    width: 150px;
+    position: relative;
+    transform: translate(-130%, 4000%)
+}
+
+.bloc-overlay-item3 {
+    color: $color-main;
+    width: 150px;
+    position: relative;
+    transform: translate(-195%, 4000%)
+}
+
+.bloc-overlay-item4 {
+    color: $color-main;
+    width: 150px;
+    position: relative;
+    transform: translate(-120%, 4000%)
+}
+
+.bloc-overlay-item5 {
+    color: $color-main;
+    width: 150px;
+    position: relative;
+    transform: translate(-150%, 4000%)
+}
+
+.bloc-overlay-item6 {
+    color: $color-main;
+    width: 150px;
+    position: relative;
+    transform: translate(-160%, 4000%)
+}

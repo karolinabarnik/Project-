@@ -288,7 +288,7 @@ nav .topbar-tech {
 /* MAIN */
 .home-hero {
   width: 100%;
-  height: 70rem;
+  height: 83rem;
   background-image: url(https://www.kaliop.com/app/uploads/2021/09/Key-visual-Hero-Home-scaled.jpg);
   background-size: cover;
   background-position: center center;
@@ -311,14 +311,14 @@ nav .topbar-tech {
   position: absolute;
   text-align: center;
   font-weight: 800;
-  transform: translate(0, 175%);
+  transform: translate(0, 265%);
   text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .home-hero-links {
   width: 100%;
   position: absolute;
-  transform: translate(-5%, 1550%);
+  transform: translate(-5%, 2050%);
   font-weight: 800;
 }
 
