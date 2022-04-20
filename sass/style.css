@@ -150,30 +150,6 @@ nav .topbar-tech {
   transition-duration: .4s;
 }
 
-/*.topbar-submenu {
-    position: absolute;
-    background-color: $color-main;
-    white-space: nowrap;
-    color: $color-nav;
-    top: 100%;
-    left: 50%;
-    z-index: 1;
-    text-align: center;
-    border-radius: 0 0 4px 4px;   
-}
-
-.topbar-trigger:hover + ul {
-    display: block;
-    background-color: $color-main;
-    white-space: nowrap;
-    color: $color-nav;
-    top: 100%;
-    left: 50%;
-    z-index: 1;
-    text-align: center;
-    border-radius: 0 0 4px 4px;  
-}
-*/
 /* NAV */
 .nav {
   z-index: 1;
@@ -896,6 +872,12 @@ footer {
 
 /* MEDIA */
 @media (max-width: 1280px) {
+  .container {
+    margin: 0 10px;
+    display: block;
+    max-width: 100vw;
+    background-size: cover;
+  }
   .topbar {
     display: none;
   }
@@ -924,7 +906,17 @@ footer {
   .subtitle-ref {
     font-weight: 300;
   }
+  .teasers-item {
+    flex: 1;
+  }
   .block-head {
     justify-content: column;
+  }
+  .offers {
+    padding: 0 15px;
+  }
+  .blocs-overlay {
+    flex-direction: column;
+    background-size: cover;
   }
 }
