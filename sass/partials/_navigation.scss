@@ -1,0 +1,251 @@
+/* HEADER */
+
+.container {
+    margin: 0 auto;
+}
+
+header {
+    position: fiexed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 99;
+    background-color: #fff;
+}
+.one {
+    display: block;
+    position: fixed;
+}
+.one.active{
+    top: 0px;
+}
+
+/* TOPBAR */
+
+.topbar {
+    position: relative;
+}
+
+.topbar-right {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+    top: 0;
+    right: 0;
+    background-color: $color-search;
+    border: 0;
+}
+.topbar-lang-choose {
+    font-size: 1rem;
+}
+
+.topbar-search {
+    padding: 8px 11 px 7px;
+    color: $color-main;
+    background-color: $color-search;
+}
+
+.topbar-menu {
+    background-color: $color-nav;
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 20px 180px;
+    font-size: 1.5rem;
+    justify-content: flex-start;
+}
+
+nav li {
+    display: inline;
+    position: relative;
+}
+
+nav .topbar-tech {
+    color: $color-nav-tech;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.topbar-tech:hover {
+    color: $color-main;
+}
+
+.topbar-trigger {
+    text-decoration: none;
+    color: $color-main;
+    border: none;
+    background-color: $color-nav;
+    cursor: pointer;
+    position: relative;
+    font-size: 1.5rem;
+    padding: 0 30px;
+    font-weight: 700;
+}
+
+.material-icons-outlined {
+    color: white;
+}
+
+.topbar-item {
+    padding-right: 80px;
+    position: relative;
+    display: inline-block;
+}
+
+.topbar-trigger:hover{
+    color: $color-nav-tech;
+}
+
+.topbar-submenu {
+    text-decoration: none;
+    display: none;
+    position: absolute;
+    min-width: 70px;
+    list-style-type: none;
+    font-size: 1rem;
+    padding: 15px 15px;
+    transform: translateX(-50%);
+    background-color: $color-main;
+    left: 40%; 
+    top: 170%;
+    z-index: 5;
+    overflow: auto;
+    border-radius: 4%;
+}
+
+.show {
+    display: block;
+}
+
+.topbar-submenu-item {
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    text-align: center;  
+    background-color: $color-main;
+    color: $color-nav;
+    font-size: 1.5rem;
+    line-height: 3rem;
+    min-width: 280px;
+    padding: 5px 40px;
+    margin: 5px 15px;
+}
+
+.topbar-submenu-item:hover {
+    background-color: $color-nav-tech;
+    border-radius: 7%;
+    transition-duration: .4s;
+}
+
+/* NAV */
+.nav {
+    z-index: 1;
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    padding: 10px 130px;
+}
+
+.container-inner {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.nav-container {
+    display: flex;
+    flex-direction: row;
+    padding: 10px 50px;   
+    justify-content: flex-start;  
+}
+
+.nav-content {
+    justify-content: flex-start;
+}
+
+.nav-logo-img {
+    height: 100px;
+    width: 300px;
+}
+
+.nav-links {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nav-link {
+    padding: 10px 30px;
+    list-style-type: none;
+    position: relative;
+    display: inline-block;
+}
+
+.nav-trigger {
+    background-color: $color-main;
+    border: none;
+    font-size: 2rem;
+    font-weight: 800;
+    padding: 0 80px;
+}
+
+.nav-submenu {
+    display: none;
+    min-width: 160px;
+    list-style-type: none;
+    font-size: 1rem;
+    padding: 15px 60px;
+    transform: translateX(-50%);
+    position: absolute;
+    background-color: $color-main;
+    left: 50%;
+    border-radius: 4%;  
+    top: 140%;
+    z-index: 1;
+    overflow: auto;
+}
+
+.nav-separator1 {
+    display: block;
+    padding: 15px 80px;
+    margin: 5px 0;
+    color: $color-pin;
+    text-align: center;
+    font-size: 1.5rem;
+    text-decoration: none;
+    font-weight: 800;
+    border-top: 2px solid hsla(0,0%,60%,.2);
+    transition: background-color .25s ease,opacity .25s ease .35s,color .25s ease;
+}
+
+.nav-separator1:hover {
+    color: $color-main;
+    background-color: $color-pin;
+    border-radius: 5%;
+}
+
+.nav-submenu-link {
+    text-decoration: none;
+    font-size: 1.5rem;
+    line-height: 3rem;
+    display: block;
+    min-width: 280px;
+    padding: 10px 40px;
+}
+
+.nav-submenu-link:hover {
+    background-color: $color-nav-tech;
+    border-radius: 5%;
+    transition-duration: .2s;
+}
+
+.showsubnav {
+    display: block;
+}

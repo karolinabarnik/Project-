@@ -1,0 +1,10 @@
+/* Variables */
+body {
+  padding-top: 0 !important;
+  color: #000;
+  background-color: white;
+  font-size: 1rem;
+  font-family: "Inter", sans-serif;
+  line-height: 1.375;
+  margin: 0;
+}
