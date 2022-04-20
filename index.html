@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kaliop - Expert in digital solutions: web, ecommerce, mobile, marketing</title>
+    <script src="https://kit.fontawesome.com/d198b727aa.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="one">
+        <nav class="topbar container">
+            <ul class="topbar-menu">
+                <li class="topbar-item">
+                    <a class="topbar-tech" href="https://www.kaliop.com/en/technologies/">Technologies</a>
+                </li>
+                <li class="topbar-item">
+                    <button class="topbar-trigger" onclick="consultingList()">Consulting & Innovation</button>
+                    <span class="material-icons-outlined">
+                        </span>
+                    <ul id="myDropdown1" class="topbar-submenu">
+                        <li>
+                            <a class="topbar-submenu-item" href="https://www.kaliop.com/en/expertises/our-devops-cloud-expertise/">Clound & DevOps</a>
+                        </li>
+                        <li>
+                            <a class="topbar-submenu-item" href="https://www.kaliop.com/en/sub-expertises/data/">Data</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="topbar-item">
+                    <a class="topbar-trigger" href="https://www.kaliop.com/en/jobs/">Jobs</a>
+                </li>
+                <li class="topbar-item">
+                    <a class="topbar-trigger" href="https://www.kaliop.com/en/about-us/">About us</a>
+                </li>
+                <li class="topbar-item">
+                    <a class="topbar-trigger" href="https://www.kaliop.com/en/csr/">Commitment</a>
+                </li>
+                <li class="topbar-item">
+                    <button class="topbar-trigger" onclick="customersList()">Customers</button>
+                    <ul id="myDropdown2" class="topbar-submenu">
+                        <li>
+                            <a class="topbar-submenu-item" href="https://www.kaliop.com/en/references/">All industries</a>
+                        </li>
+                        <li>
+                            <a class="topbar-submenu-item" href="https://www.kaliop.com/en/references/#finance">Banking & Insurance</a>
+                        </li>
+                        <li>
+                            <a class="topbar-submenu-item" href="https://www.kaliop.com/en/references/#health-sector">Healthcare</a>
+                        </li>
+                        <li>
+                            <a class="topbar-submenu-item" href="https://www.kaliop.com/en/references/#industry">Industry</a>
+                        </li>
+                        <li>
+                            <a class="topbar-submenu-item" href="https://www.kaliop.com/en/references/#media">Media</a>
+                        </li>
+                        <li>
+                            <a class="topbar-submenu-item" href="https://www.kaliop.com/en/references/#public-sector">Public</a>
+                        </li>
+                        <li>
+                            <a class="topbar-submenu-item" href="https://www.kaliop.com/en/references/#retail-en">Reatil</a>
+                        </li>
+                        <li>
+                            <a class="topbar-submenu-item" href="https://www.kaliop.com/en/references/#service-industry">Services</a>
+                        </li>
+                        <li>
+                            <a class="topbar-submenu-item" href="https://www.kaliop.com/en/references/#tourism">Tourism</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="topbar-item">
+                    <button class="topbar-trigger" onclick="publicationsList()">Publications</button>
+                    <ul id="myDropdown3" class="topbar-submenu">
+                        <li>
+                            <a class="topbar-submenu-item" href="https://www.kaliop.com/en/blog/">Blog</a>
+                        </li>
+                        <li>
+                            <a class="topbar-submenu-item" href="https://www.kaliop.com/en/resources/">Resources</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="topbar-item">
+                    <a class="topbar-trigger" href="https://www.kaliop.com/en/contact/">Contact</a>
+                </li>
+            </ul>
+            <ul class="topbar-right">
+                <li>
+                    <div class="topbar-search">
+                        <button class="topbar-search-button"></button>
+                    </div>
+                </li>
+                <li>
+                    <div class="topbar-lang">
+                        <button class="topbar-lang-choose">
+                            <ul>
+                                <li class="topbar-lang-en">EN</li>
+                                <li class="topbar-lang-fr">FR</li>
+                            </ul>
+                        </button>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+        <div class="container nav">
+            <div class="nav-container container-inner2">
+                <div class="nav-content">
+                    <a class="nav-logo1" href="https://www.kaliop.com/en/">
+                    <img class="nav-logo-img" src="https://www.kaliop.com/app/uploads/2021/05/logo-Kaliop-2021.svg" alt="logo-Kaliop-2021">
+                    </a>
+                </div>
+                <div class="nav-list">
+                    <ul class="nav-links">
+                        <li class="nav-link">
+                            <button class="nav-trigger" onclick="webList()">Web</button>
+                            <ul class="nav-submenu" id="dropdown1">
+                                <li>
+                                    <a class="nav-submenu-link" href="https://www.kaliop.com/en/sub-expertises/digital-platform/">Digital platform</a>
+                                </li>
+                                <li>
+                                    <a class="nav-submenu-link" href="https://www.kaliop.com/en/sub-expertises/website-factory/">Website factory</a>
+                                </li>
+                                <li>
+                                    <a class="nav-submenu-link" href="https://www.kaliop.com/en/sub-expertises/intranet/">Intranet</a>
+                                </li>
+                                <li>
+                                    <span class="nav-separator">
+                                    <a class="nav-separator1" href="https://www.kaliop.com/en/expertises/our-web-expertise/">All expertise</a>
+                                    </span>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-link">
+                            <button class="nav-trigger" onclick="digitalList()">Digital commerce</button>
+                            <ul class="nav-submenu" id="dropdown2">
+                                <li>
+                                    <a class="nav-submenu-link" href="https://www.kaliop.com/en/sub-expertises/e-commerce/">E-commerce platforms</a>
+                                </li>
+                                <li>
+                                    <a class="nav-submenu-link" href="https://www.kaliop.com/en/sub-expertises/digitalinstore/">Digital in store</a>
+                                </li>
+                                <li>
+                                    <a class="nav-submenu-link" href="https://www.kaliop.com/en/sub-expertises/pim/">PIM</a>
+                                </li>
+                                <li>
+                                    <a class="nav-submenu-link" href="https://www.kaliop.com/en/offers/ux-design-ecommerce/">Ecommerce UX</a>
+                                </li>
+                                <li>
+                                    <span class="nav-separator"></span>
+                                    <a class="nav-separator1" href="https://www.kaliop.com/en/expertises/commerce-digital/">All expertise</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-link">
+                            <button class="nav-trigger" onclick="mobileList()">Mobile</button>
+                            <ul class="nav-submenu" id="dropdown3">
+                                <li>
+                                    <a class="nav-submenu-link" href="https://www.kaliop.com/en/sub-expertises/native-mobile-application/">Mobile application</a>
+                                </li>
+                                <li>
+                                    <a class="nav-submenu-link" href="https://www.kaliop.com/en/sub-expertises/progressive-web-application/">Progressive Web Application</a>
+                                </li>
+                                <li>
+                                    <a class="nav-submenu-link" href="https://www.kaliop.com/en/sub-expertises/backend-mobile/">Mobile backend</a>
+                                </li>
+                                <li>
+                                    <span class="nav-separator"></span>
+                                    <a class="nav-separator1" href="https://www.kaliop.com/en/expertises/our-mobile-expertise/">All expertise</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-link">
+                            <button class="nav-trigger" onclick="digitalMarketingList()">Digital Marketing</button>
+                            <ul id="dropdown4" class="nav-submenu">
+                                <li>
+                                    <a class="nav-submenu-link" href="https://www.kaliop.com/en/sub-expertises/digital-marketing-strategy/">Digital Marketing Strategy</a>
+                                </li>
+                                <li>
+                                    <a class="nav-submenu-link" href="https://www.kaliop.com/en/sub-expertises/web-analytics-support/">Web analytics</a>
+                                </li>
+                                <li>
+                                    <a class="nav-submenu-link" href="https://www.kaliop.com/en/sub-expertises/sea/">Search Engine Advertising</a>
+                                </li>
+                                <li>
+                                    <a class="nav-submenu-link" href="https://www.kaliop.com/en/sub-expertises/seo/">Search Engine Optimization</a>
+                                </li>
+                                <li>
+                                    <a class="nav-submenu-link" href="https://www.kaliop.com/en/sub-expertises/inbound-content-marketing/">Inbound marketing</a>
+                                </li>
+                                <li>
+                                    <a class="nav-submenu-link" href="https://www.kaliop.com/en/sub-expertises/social-media/">Social media</a>
+                                </li>
+                                <li>
+                                    <span class="nav-separator"></span>
+                                    <a class="nav-separator1" href="https://www.kaliop.com/en/expertises/digital-marketing-2/">All expertise</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-link">
+                            <button class="nav-trigger" onclick="iotList()">IoT</button>
+                            <ul id="dropdown5" class="nav-submenu">
+                                <li>
+                                    <a class="nav-submenu-link" href="https://www.kaliop.com/en/sub-expertises/notre-expertise-pilotage-de-projets-iot/">IoT project management</a>
+                                </li>
+                                <li>
+                                    <a class="nav-submenu-link" href="https://www.kaliop.com/en/sub-expertises/conception-de-services-iot/">IoT service design</a>
+                                </li>
+                                <li>
+                                    <a class="nav-submenu-link" href="https://www.kaliop.com/en/sub-expertises/integration-de-plateforme-iot/">IoT platform integration</a>
+                                </li>
+                                <li>
+                                    <span class="nav-separator"></span>
+                                    <a class="nav-separator1" href="https://www.kaliop.com/en/expertises/our-iot-expertise/">All expertise</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul> 
+                </div>
+            </div>
+        </div>
+        <div class ="search-full"></div>
+        <div class="mobile-nav"></div>   
+    </header>
+    <main>
+        <div class="home-hero overlay">
+            <div class="home-hero-container container-inner">
+                <div class="home-hero-block">
+                    <h1 class="home-hero-title">Delivering digital value <br>for people</h1>
+                    <h2 class="home-hero-subtitle"></h2>
+                </div>
+                <div class="home-hero-links">
+                    <a class="home-hero-link" href="https://www.kaliop.com/en/expertises/our-web-expertise/"> Web</a>
+                    <a class="home-hero-link" href="https://www.kaliop.com/en/expertises/commerce-digital/">Digital commerce</a>
+                    <a class="home-hero-link" href="https://www.kaliop.com/en/expertises/our-mobile-expertise/">Mobile </a>
+                    <a class="home-hero-link" href="https://www.kaliop.com/en/expertises/digital-marketing-2/">Digital Marketing </a>
+                    <a class="home-hero-link" href="https://www.kaliop.com/en/expertises/our-iot-expertise/">IoT</a>
+                </div>
+            </div>
+        </div>
+
+    </main>
+    <section class="references">
+        <div class="container">
+            <div class="container-inner1">
+                <div class="block-head">
+                    <div class="block-head-titles">
+                        <h2 class="title-ref">References</h2>
+                        <h3 class="subtitle-ref">Project we're proud of</h3>
+                    </div>
+                    <div class="block-head-more">
+                        <a class="more-ref" href="https://www.kaliop.com/en/references/">
+                            <span class="icon-ref"></span>
+                        </a>
+                    </div>
+                </div>
+                <div class="teasers">
+                    <div class="teasers-item item-first">
+                        <div class="teasers-top1">
+                            <div class="teasers-image">
+                                <a href="https://www.kaliop.com/en/cases-study/france-connect/">
+                                    <div class="teasers-img-logo">
+                                    </div>
+                                </a>
+                                <div class="teasers-img">
+                                    <img class="teasers-logo-background" src="https://www.kaliop.com/app/uploads/2019/03/france_connect_white-1.png" alt="logo">
+                                </div>
+                            </div>
+                            <div class="teasers-pin">Case study</div>
+                        </div>
+                        <div class="teasers-img-logo-active">
+                            <a class="teasers-img-link-active" href="https://www.kaliop.com/en/cases-study/france-connect/">Discover the case study</a>
+                        </div>
+                        <div class="teasers-tag">
+                            <a class="teasers-links" href="https://www.kaliop.com/en/technologies/node-js/">Node.js</a>
+                            </div>    
+                            <a class="teasers-tag1" href="https://www.kaliop.com/en/cases-study/france-connect/">Identify and authenticate users of public services</a>
+                    </div>
+                    <div class="teasers-item item-second">
+                        <div class="teasers-top2">
+                            <div class="teasers-image">
+                                <a href="https://www.kaliop.com/en/cases-study/biogen/">
+                                    <div class="teasers-img-logo">
+                                    </div>
+                                </a>
+                                <div class="teasers-img2">
+                                    <img class="teasers-logo-background2" src="https://www.kaliop.com/app/uploads/2019/01/biogen_white.svg" alt="logo">
+                                </div>
+                                <div class="teasers-img-logo-active">
+                                    <a class="teasers-img-link-active2" href="https://www.kaliop.com/en/cases-study/biogen/">Discover the case study</a>
+                                </div>
+                            </div>
+                            <div class="teasers-pin">Case study</div>
+                        </div>
+                        <div class="teasers-tag">
+                            <a class="teasers-links teasers-border" href="https://www.kaliop.com/en/technologies/react-native/">React Native</a>
+                            <a class="teasers-links teasers-border teasers-border2" href="https://www.kaliop.com/en/technologies/kuzzle/">Kuzzle IoT </a>
+                            <a class="teasers-links teasers-border teasers-border2" href="https://www.kaliop.com/en/technologies/amazon-web-services/"> AWS </a>
+                            <a class="teasers-links teasers-border teasers-border2" href="https://www.kaliop.com/en/technologies/serverless-framework/"> Serverless </a>
+                            <a class="teasers-links teasers-border2" href="https://www.kaliop.com/en/technologies/react-js/"> React.js </a>
+                        </div>    
+                        <a class="teasers-tag2" href="https://www.kaliop.com/en/cases-study/biogen/">Create Cleo, a mobile app to better live multiple sclerosis</a>
+                    </div>
+                    <div class="teasers-item item-third">
+                        <div class="teasers-top3">
+                            <div class="teasers-image">
+                                <div class="teasers-img-logo">
+                                </div>
+                                <div class="teasers-img3">
+                                    <img class="teasers-logo-background3" src="https://www.kaliop.com/app/uploads/2019/07/logo-yelloh-blanc.png" alt="logo">
+                                </div>
+                                <div class="teasers-img-logo-active">
+                                    <img class="teasers-img-link-active3" src="https://www.kaliop.com/app/uploads/2019/07/logo-yelloh-blanc.png">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="teasers-tag">
+                            <a class="teasers-links" href="https://www.kaliop.com/en/technologies/ez-publish-ez-platform/">ibexa DXP (ex eZ Platform)</a>
+                        </div> 
+                        <p class="teasers-tag3">Innovate while maintainging the performance of one of the leading outdoor hotel eCommerce sites</p>   
+                    </div>
+                    <div class="teasers-item item-four">
+                        <div class="teasers-top4">
+                            <div class="teasers-image">
+                                <div class="teasers-img-logo"></div>
+                                <div class="teasers-img4">
+                                    <img class="teasers-logo-background4" src="https://www.kaliop.com/app/uploads/2019/02/essilor_white-1.png" alt="logo">
+                                </div>
+                                <div class="teasers-img-logo-active">
+                                    <a class="teasers-img-link-active4" href="https://www.kaliop.com/en/cases-study/essilor/">Discover the case study</a>
+                                </div>
+                            </div>
+                            <div class="teasers-pin">Case study</div>
+                        </div>
+                        <div class="teasers-tag">
+                            <a class="teasers-links teasers-border" href="https://www.kaliop.com/en/technologies/ez-publish-ez-platform/">ibexa DXP (ex eZ Platform) </a>
+                            <a class="teasers-links teasers-border2" href="https://www.kaliop.com/en/technologies/symfony/">Symfony</a>
+                        </div> 
+                        <a class="teasers-tag4" href="https://www.kaliop.com/en/cases-study/essilor/">Deploy the brand's sites internationally</a>    
+                    </div>
+                </div>
+            </div>
+        </div>    
+    </section>
+    <section class="offers">
+        <div class="container">
+            <div class="container-inner5">
+                <div class="bloc-head-off">
+                    <h2 class="title-offers">Offers</h2>
+                    <h3 class="subtitle-offers">Tailored support</h3>
+                </div>
+                <div class="blocs-overlay">
+                    <div class="bloc-item">
+                        <div class="bloc-content">
+                            <h4 class="bloc-tit1">Consulting</h4>
+                            <p class="bloc-paragraph">A pragmatic approach and assumed recommendations for all your project farming topics, techno choice, performance...</p>
+                            <span class="bloc-overlay-icon">
+                                <img src="/Project-/images/arrow.png"> 
+                                Find out more
+                            </span>
+                        </div>
+                        <div class="bloc-content2">
+                            <a class="bloc-overlay-link2" href="https://www.kaliop.com/en/offers/kaliop-consulting/">
+                            <hr class="bloc-overlay-item"></hr>
+                            <h3 class="bloc-overlay-tit1">Discover the offer consulting
+                                <img src="/Project-/images/plus.png">
+                            </h3>              
+                            <span class="icon-add"></span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="bloc-item">
+                        <div class="bloc-content">
+                            <h4 class="bloc-tit1">UX/UI</h4>
+                            <p class="bloc-paragraph">Design your digital platforms by integrating the real needs of your users: design thinking, sprint design, user tracking...</p>
+                            <span class="bloc-overlay-icon">
+                                <img src="/Project-/images/arrow.png"> 
+                                Find out more
+                            </span>
+                        </div>
+                        <div class="bloc-content2">
+                            <a class="bloc-overlay-link2" href="https://www.kaliop.com/en/offers/ux-ui/">
+                            <hr class="bloc-overlay-item2"></hr>
+                            <h3 class="bloc-overlay-tit1">Discover the offer UX/UI
+                                <img src="/Project-/images/plus.png">
+                            </h3>
+                            <span class="icon-add"></span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="bloc-item">
+                        <div class="bloc-content">
+                            <h4 class="bloc-tit1">Development</h4>
+                            <p class="bloc-paragraph">Agile management, stable teams and an involved PO to succeed together in your time to market & technical quality challenges.</p>
+                            <span class="bloc-overlay-icon">
+                                <img src="/Project-/images/arrow.png"> 
+                                Find out more
+                            </span>
+                        </div>
+                        <div class="bloc-content2">
+                            <a class="bloc-overlay-link2" href="https://www.kaliop.com/en/offers/development/">
+                            <hr class="bloc-overlay-item3"></hr>
+                            <h3 class="bloc-overlay-tit1">Discover the offer development
+                                <img src="/Project-/images/plus.png">
+                            </h3>
+                            <span class="icon-add"></span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="bloc-item">
+                        <div class="bloc-content">
+                            <h4 class="bloc-tit1">Run</h4>
+                            <p class="bloc-paragraph">Boost your digital ecosystem over the long term: performance, scalability, audience and user acquisition.</p>
+                            <span class="bloc-overlay-icon">
+                                <img src="/Project-/images/arrow.png"> 
+                                Find out more
+                            </span>
+                        </div>
+                        <div class="bloc-content2">
+                            <a class="bloc-overlay-link2" href="https://www.kaliop.com/en/offers/development/">
+                            <hr class="bloc-overlay-item4"></hr>
+                            <h3 class="bloc-overlay-tit1">Discover the offer run
+                                <img src="/Project-/images/plus.png">
+                            </h3>
+                            <span class="icon-add"></span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="bloc-item">
+                        <div class="bloc-content">
+                            <h4 class="bloc-tit1">Hosting</h4>
+                            <p class="bloc-paragraph">A single point of contact and a commitment to global performance for your digitak applications.</p>
+                            <span class="bloc-overlay-icon">
+                                <img src="/Project-/images/arrow.png"> 
+                                Find out more
+                            </span>
+                        </div>
+                        <div class="bloc-content2">
+                            <a class="bloc-overlay-link2" href="https://www.kaliop.com/en/offers/hosting/">
+                            <hr class="bloc-overlay-item5"></hr>
+                            <h3 class="bloc-overlay-tit1">Discover the offer hosting
+                                <img src="/Project-/images/plus.png">
+                            </h3>
+                            <span class="icon-add"></span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="bloc-item">
+                        <div class="bloc-content">
+                            <h4 class="bloc-tit1">Training</h4>
+                            <p class="bloc-paragraph">Training to support you in digital transformation. Kaliop is a certified datadock consultatnt trainer to coach your talents.</p>
+                            <span class="bloc-overlay-icon">
+                                <img src="/Project-/images/arrow.png"> 
+                                Find out more
+                            </span>
+                        </div>
+                        <div class="bloc-content2">
+                            <a class="bloc-overlay-link2" href="https://www.kaliop.com/en/offers/kaliop-training/">
+                            <hr class="bloc-overlay-item6"></hr>
+                            <h3 class="bloc-overlay-tit1">Discover the offer training
+                                <img src="/Project-/images/plus.png">
+                            </h3>
+                            <span class="icon-add"></span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="prefooter">
+        <img class="prefooter-logo" src="/Project-/">
+        <h2 class="title-prefooter">Have a project? Our teams are here to answear your questions</h2>
+        <button class="prefooter-btn">Contact us</button>
+    </section>
+    <footer>
+        <div class="container">
+            <div class="container-inner1">
+                <div class="footer">
+                    <div class="footer-top">
+                        <div class="footer-logo">
+                            <img src="https://www.kaliop.com/app/uploads/2021/05/logo-Kaliop-2021.svg" alt="logo">
+                        </div>
+                        <div class="footer-columns">
+                            <div class="footer-column">
+                                <p class="footer-col-1">International</p>
+                                <a href="https://www.kaliop.pl/" class="footer-col-link">Poland</a>
+                            </div>
+                            <div class="footer-column">
+                                <p class="footer-col-2">Around Kaliop</p>
+                                <a href="https://www.kaliop.com/en/technologies/" class="footer-col-link">Technologies</a>
+                                <a href="https://www.kaliop.com/en/partners/" class="footer-col-link">Partners</a>
+                            </div>
+                            <div class="footer-column">
+                                <p class="footer-col-3">Jobs</p>
+                                <a href="https://kaliop.candidats.talents-in.com/#" class="footer-col-link">Applicant area</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer-bottom">
+                        <div class="footer-socialnetwork">
+                            <p class="footer-socialnetwork-follow">Follow us </p>
+                            <a class="footer-socialnet" href="https://twitter.com/Kaliop">
+                                <img class="footer-social-icon" src="https://www.kaliop.com/app/uploads/2019/01/twitter.svg" alt="twitter">
+                            </a>
+                            <a class="footer-socialnet" href="https://www.linkedin.com/company/kaliop/">
+                                <img class="footer-social-icon" src="https://www.kaliop.com/app/uploads/2019/01/linkedin.svg" alt="linkedin">
+                            </a>
+                            <a class="footer-socialnet" href="https://www.facebook.com/kaliop.community/">
+                                <img class="footer-social-icon" src="https://www.kaliop.com/app/uploads/2019/01/facebook.svg" alt="facebook">
+                            </a>
+                            <a class="footer-socialnet" href="https://www.instagram.com/kalioplive/">
+                                <img class="footer-social-icon" src="https://www.kaliop.com/app/uploads/2019/01/instagram.svg" alt="facebook">
+                            </a>
+                        </div>
+                        <div class="footer-cont">
+                            <a href="https://www.kaliop.com/en/contact/" class="footer-contact">Contact</a>
+                        </div>
+                        <div class="footer-copyright">
+                            <a class="footer-policy" href="https://www.kaliop.com/en/legal-notice/">Legal notice - credits</a>
+                            <span class="icon-footer-copyright">
+                                <i class="fa-solid fa-copyright"></i> 
+                                Kaliop 2021
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>  
+    <script src="/Project-/js/script.js"></script>
+    <script src="/js/dropdownmenu.js"></script>
+</body>
+</html>
