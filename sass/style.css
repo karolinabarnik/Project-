@@ -475,6 +475,9 @@ nav .topbar-tech {
 
 .teasers-img4:hover {
   filter: brightness(30%);
+  transform: scale(1.05);
+  z-index: 0;
+  transition-duration: .7s;
 }
 
 .teasers-item:hover .teasers-pin {
